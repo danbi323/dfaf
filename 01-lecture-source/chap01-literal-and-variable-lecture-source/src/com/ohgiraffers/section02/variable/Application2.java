@@ -86,7 +86,7 @@ public class Application2 {
         System.out.println("ch2의 값 출력 : " + ch2);
 
         System.out.println("isTrue의 값 출력 : " + isTrue);
-        
+
         System.out.println("str의 값 출력 : " + str);
 
 
