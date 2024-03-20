@@ -46,7 +46,21 @@ public class Application1 {
         System.out.println("9번 고객에게 포인트를 " + point + "포인트를 지급하였습니다.");
         System.out.println("10번 고객에게 포인트를 " + point + "포인트를 지급하였습니다.");
 
+        // 3. 시간에 따라 변경되는 값을 정하고 사용
+        System.out.println("=========변수의 저장된 값 변경 테스트==========");
 
+        int sum = 0;
+
+        sum = sum + 10;
+
+        System.out.println("sum에 10을 더하면 현재의 sum의 값은? " + sum);
+
+        sum = sum + 100;
+
+        System.out.println("sum에 10이있었는데 추가로 100을 더하면 현재의 sum의 값은? " + sum);
+
+        sum = sum + 100;
+        System.out.println("sum에 110이있었는데 추가로 100을 더하면 현재의 sum의 값은? " + sum);
 
 
     }
