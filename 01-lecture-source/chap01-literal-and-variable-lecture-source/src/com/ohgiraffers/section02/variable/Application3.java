@@ -61,7 +61,7 @@ public class Application3 {
         int maxAge = 20;
         int minAgeFm = 10;
 
-        // 목차 2-3 단어와 단어 사이는 언더스코어(_) 로 하지 않는다
+        // 목차 2-3 단 어와 단어 사이는 언더스코어(_) 로 하지 않는다
         String user_name;   // 에러발생하진 않지만 이렇게 하면 안됨
         String userName;    // 올바른 표기법
 
