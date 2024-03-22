@@ -32,5 +32,6 @@ public class Application3 {
 //        int randomNum3 = random.nextInt(256) - 128;
         int randomNum4 = new Random().nextInt(256) - 128;
         System.out.println("-128~127 : " + randomNum4);
+
     }
 }

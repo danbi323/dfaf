@@ -27,5 +27,7 @@ public class Application2 {
         // 3. 10~15 까지의 난수 발생
         int random3 = (int)(Math.random() * 6) + 10;
         System.out.println("10부터 15사이의 난수 : " + random3);
+
+
     }
 }
