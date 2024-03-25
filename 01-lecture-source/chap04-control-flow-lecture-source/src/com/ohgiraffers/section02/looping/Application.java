@@ -12,7 +12,14 @@ public class Application {
 
         A_nestedFor an = new A_nestedFor();
 //        an.printGugudanFromTwoToNice();
-        an.printTriangStars();
+//        an.printTriangStars();
+
+        B_while b = new B_while();
+//        b.testSimpleWhileStatement();
+//        b.test2();
+        C_doWhile c = new C_doWhile();
+//        c.test();
+        c.testDoWhileExample();
 
     }
 }
