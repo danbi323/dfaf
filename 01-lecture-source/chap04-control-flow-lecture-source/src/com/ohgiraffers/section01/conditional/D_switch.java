@@ -36,6 +36,80 @@ public class D_switch {
         System.out.println("두 번째 정수 입력");
         int snum = sc.nextInt();
         System.out.println("연산 기호 입력 (+, -, /, %) : ");
-        char op = sc.nextLine().charAt(0);
+        char op = sc.next().charAt(0);
+
+        // 연산 결과를 저장할 변수
+        int result = 0;
+        switch (op){
+            case '+' :
+                result = fnum + snum;
+                break;
+            case '-' :
+                result = fnum - snum;
+                break;
+            case '/' :
+                result = fnum / snum;
+                break;
+            case '%' :
+                result = fnum % snum;
+                break;
+
+
+        }
+
+        System.out.println(fnum + " " + op + " " + snum + " = " + result);
     }
+
+    public void testSwitchVendingMachine() {
+
+        /* 수업목표. switch문 내에 break문에 대해 흐름을 이해하고 적용할 수 있다. */
+        /* switch문을 이용하여 문자열 값 비교 및 break문 테스트 */
+        /*
+         * 1.JDK 1.7 이상부터 switch문을 사용하여 문자열을 비교할 수 있다.
+         * 2.break를 사용하지 않으면 실행구문을 계속 동작시킨다.
+         * */
+
+        System.out.println("=== OhGiraffers vending machine ===");
+        System.out.println("  사이다   콜라   환타   바카스  핫식스  ");
+        System.out.println("==============================");
+        System.out.print("음료를 선택해주세요 : ");
+
+        /*  원하는 음료를 문자열로 입력받음 */
+        Scanner sc = new Scanner(System.in);
+        String selectedDrink = sc.nextLine();
+
+
+        int price = 0;
+        String order = "";
+
+
+        switch (selectedDrink) {
+            case "사이다":
+                order = "사이다";
+                price = 500;
+                break;
+            case "콜라":
+                order = "콜라";
+                price = 600;
+                break;
+            case "환타":
+                order = "환타";
+                price = 700;
+                break;
+            case "바카스":
+                order = "바카스";
+                price = 2000;
+                break;
+            case "핫식스":
+                order = "핫식스";
+                price = 10000;
+                break;
+        }
+
+        System.out.println(order + "를 선택하셨습니다.");
+        System.out.println(price + "원을 투입해주세요!");
+
+
+    }
+
 }
