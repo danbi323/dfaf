@@ -19,7 +19,9 @@ public class Application {
 //        b.test2();
         C_doWhile c = new C_doWhile();
 //        c.test();
-        c.testDoWhileExample();
+//        c.testDoWhileExample();
+
+
 
     }
 }
