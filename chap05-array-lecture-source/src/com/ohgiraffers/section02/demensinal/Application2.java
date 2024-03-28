@@ -1,20 +1,18 @@
 package com.ohgiraffers.section02.demensinal;
 
 public class Application2 {
-
     public static void main(String[] args) {
-        /*
-        2차원 정변배열을 선언,할당해 사용
-        1. 배열의 선언 및 할당
-        정변 배열의 경우 각 인덱스변 배열을 따로 할당할 수도 있지만 선언과 동시에 모든 배열을
-        할당할 수 있음
-        자료형[][] 변수명 = new 자료형[배열 갯수][배열 길이]
-         */
+        /*수업목표. 2차원 정변배열을 선언 및 할당하여 사용할 수 있다*/
+        /* 1. 배열의 선언 및 할당 */
+        /* 정변 배열의 경우 각 인덱스별 배열을 따로 할당할 수도 있지만 선언와 동시에 모든 배열을
+        * 할당할 수 있다.
+        * 자료형[][] 변수명 = new 자료형[할당할 배열의 갯수][할당할 배열의 길이]
+        * */
 
-        int[][] iarr = new int[3][5]; // 길이 5의 배열을 3개 할당 stack의 iarr에 저장
+        int[][] iarr = new int[3][5];  //길이 5의 배열을 3개 할당하고 그 주소를 묶어 관리하는 배열의 주소를 stack의 iarr에 저장한다.
 
-        // 2. 각 배열의 인덱스에 접근해서 값 대입 후 출력
-        // 2-1 각 인덱스 공간에 하나씩 접근하여 값 대입 후 출력
+        /* 2. 각 배열의 인덱스에 접근해서 값 대입 후 출력*/
+        /* 2-1. 각 인덱스 공간에 하나씩 접근하여 값 대입 후 출력 */
 
         iarr[0][0] = 1;
         iarr[0][1] = 2;
@@ -59,21 +57,29 @@ public class Application2 {
 
         System.out.println();
 
-
-
-        // 2-2반복문을 이용해 값 대입 후 출력
+        /* 2-2 반복문을 이용하여 값 대입 후 출력 */
 
         int value = 1;
 
-        for (int i = 0; i < iarr.length; i++) {
+        /* 설명. 모든 배열에 순차적으로 접근하는 반복문 */
+        for(int i = 0; i < iarr.length; i++) {
 
-            for (int j = 0; j < iarr[i].length; j++) {
+            /* 설명. 배열마다 인덱스에 차례로 접근하는 반복문 */
+            for(int j = 0; j < iarr[i].length; j++) {
+                iarr[i][j] = ++value;
+            }
+        }
 
-//                iarr[i][j] = value++;
+        /* 설명. 모든 배열에 순차적으로 접근하는 반복문 */
+        for(int i = 0; i < iarr.length; i++) {
+
+            /* 설명. 배열마다 인덱스에 차례로 접근하는 반복문 */
+            for(int j = 0; j < iarr[i].length; j++) {
                 System.out.print(iarr[i][j] + " ");
-
             }
             System.out.println();
         }
     }
 }
+
+
