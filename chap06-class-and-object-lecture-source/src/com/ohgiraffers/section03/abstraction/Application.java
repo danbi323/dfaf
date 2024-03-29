@@ -1,5 +1,7 @@
 package com.ohgiraffers.section03.abstraction;
 
+import java.util.Scanner;
+
 public class Application {
     public static void main(String[] args) {
         /*
@@ -24,7 +26,7 @@ public class Application {
         객체의 재사용성이 증가하면 중복되는 코드를 줄일수있으며, 오류발생가능성 감소하고
         유지보수성을 증가시킴
          */
-    }
+
         /*
          *  객체와 객체의 상호작용이란?
          *  객체와 객체는 메세지를 통해 서로 상호작용을 한다. 메세지(메소드 호출)를 보내는 쪽을 송신자라고 하고
@@ -104,4 +106,40 @@ public class Application {
      메소드 : 시동 걸어. 앞으로 가. 멈춰. 시동 꺼
      */
 
+    CarRacer carRacer = new CarRacer();
+
+    Scanner sc = new Scanner(System.in);
+
+    while(true){
+        System.out.println("=========카레이싱 프로그램========");
+        System.out.println("1. 시동걸기");
+        System.out.println("2. 전진");
+        System.out.println("3. 후진");
+        System.out.println("4. 정지");
+        System.out.println("5. 시동끄기");
+        System.out.println("9. 프로그램 종료");
+        int no = sc.nextInt();
+
+        switch (no){
+            case 1 : carRacer.startUp();
+            break;
+            case 2 : carRacer.stepAccelator();
+            break;
+            case 3 : carRacer.back();
+            break;
+            case 4 : carRacer.stepBreak();
+            break;
+            case 5 : carRacer.turnOff();
+            break;
+            case 9 : System.out.println("프로그램 종료");
+            break;
+            default: System.out.println("잘못된 번호 입력했삼"); break;
+        }
+
+        if (no == 9){
+            break;
+        }
+    }
+
+    }
 }
