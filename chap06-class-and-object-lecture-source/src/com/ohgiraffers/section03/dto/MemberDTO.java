@@ -2,6 +2,13 @@ package com.ohgiraffers.section03.dto;
 
 public class MemberDTO {
 
+    private int number;     //회원번호
+    private String name;    //회원이름
+    private int age;         //나이
+    private char gender;      //성별
+    private double height;    //키
+    private boolean isActivated; // 회원탈퇴여부(활성화 여부)
+
     /*
      *  설정자(setter)/접근자(getter)의 경우 실무에서 암묵적으로 통용되는 작성 규칙이 존재한다.
      *  설정자(setter) 작성 규칙
@@ -31,19 +38,8 @@ public class MemberDTO {
      *      return this.name;
      *  }
      * */
-    private int number;     // 회원번호
 
-    private String name;    // 회원이름
-
-    private int age;        // 회원나이
-
-    private char gender;    // 성별
-
-    private double height;  // 키
-
-    private boolean isActivated;    // 회원탈퇴여부
-
-    public void setNumb00000000000000000000er(int number) {
+    public void setNumber(int number) {
         this.number = number;
     }
 
@@ -87,6 +83,7 @@ public class MemberDTO {
         return height;
     }
 
+    /*boolean의 접근자는 get으로 시작하지 않고 is로 시작하는 것이 일반적인 관례이다. */
     public boolean isActivated() {
         return isActivated;
     }

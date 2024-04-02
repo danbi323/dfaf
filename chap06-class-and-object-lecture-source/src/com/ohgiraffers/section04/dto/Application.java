@@ -25,17 +25,17 @@ public class Application {
          *        (상황에 따라 interrupt 등 여러 가지 문제가 발생할 수 있음)
          *  */
 
-        // 생성자를 이용한 초기화
-        UserDTO user = new UserDTO("ohgiraffers", "ohgiraffers", "ohgiraffers");
+        /* 1. 생성자를 이용한 초기화  */
+        UserDTO user = new UserDTO("ohgiraffers","ohgiraffers","ohgiraffers");
         System.out.println(user.toString());
-        
-        // 2. 기본생성자와 설정자를 이용한 초기화
+
+        /* 2. 기본생성자와 설정자를 이용한 초기화*/
         UserDTO user2 = new UserDTO();
         user2.setId("ohgiraffers");
-        user2.setName("ohgiraffers");
         user2.setPwd("ohgiraffers");
+        user2.setName("ohgiraffers");
 
-        System.out.println("user2.toString() = " + user2.toString());
+        System.out.println(user2.toString());
 
     }
 

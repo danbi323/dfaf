@@ -12,6 +12,7 @@ public class Application5 {
          * */
 
         /* 설명. 초기 배열 선언 및 초기화 */
+
         int[] iarr = {2,5,4,6,1,3};
 
         int temp;
