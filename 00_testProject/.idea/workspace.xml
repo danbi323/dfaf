@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="277681c7-a161-4642-8bc8-70227f962f45" name="Changes" comment="">
+    <list default="true" id="e17cd4ed-aff1-42bc-9cba-f9da72e151a9" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section02/set/run/Application1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section02/set/run/Application2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section02/set/run/Application3.java" afterDir="false" />
@@ -23,9 +23,10 @@
       <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section03/uses/Application2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section04/override/SubClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section04/override/SuperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,32 +36,41 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
-  <component name="ProjectId" id="2efm9NCk3MMZirq8X6Bmlv4EZM4" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2eflwws3EoSIPRdFYDbFzo9V8TH" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hi/Desktop/dev/01_JAVA/00_testProject&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-temurin-17.0.10-4caba194b151-b3785831" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="277681c7-a161-4642-8bc8-70227f962f45" name="Changes" comment="" />
-      <created>1712303854539</created>
+      <changelist id="e17cd4ed-aff1-42bc-9cba-f9da72e151a9" name="Changes" comment="" />
+      <created>1712303755987</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712303854539</updated>
-      <workItem from="1712303855534" duration="11000" />
+      <updated>1712303755987</updated>
+      <workItem from="1712303756979" duration="21000" />
+      <workItem from="1712303843602" duration="2000" />
     </task>
     <servers />
   </component>
