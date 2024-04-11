@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="277681c7-a161-4642-8bc8-70227f962f45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section02/set/run/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section02/set/run/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section02/set/run/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section03/map/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section03/map/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/com/ohgiraffers/section03/map/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section01/exception/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section01/exception/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section01/exception/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section02/userexception/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section02/userexception/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section02/userexception/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section02/userexception/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section02/userexception/exception/MoneyNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section02/userexception/exception/NegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section02/userexception/exception/NotEnoughMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section02/userexception/exception/PriceNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section03/uses/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section03/uses/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section04/override/SubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/com/ohgiraffers/section04/override/SuperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" />
+    <list default="true" id="6d3478f3-4943-4510-a489-9663c1042e1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../chap14-io-lecture-source/src/com/ohgiraffers/section03/filerstream/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap14-io-lecture-source/src/com/ohgiraffers/section03/filerstream/score" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/danbi/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/danbi/MusicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/danbi/manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/danbi/menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +19,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  "associatedIndex": 7
 }]]></component>
-  <component name="ProjectId" id="2efm9NCk3MMZirq8X6Bmlv4EZM4" />
+  <component name="ProjectId" id="2eo12POXs20IZD1KMQHwFLzFHdo" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -55,12 +54,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="277681c7-a161-4642-8bc8-70227f962f45" name="Changes" comment="" />
-      <created>1712303854539</created>
+      <changelist id="6d3478f3-4943-4510-a489-9663c1042e1a" name="Changes" comment="" />
+      <created>1712555908549</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712303854539</updated>
-      <workItem from="1712303855534" duration="11000" />
+      <updated>1712555908549</updated>
+      <workItem from="1712555909541" duration="1896000" />
     </task>
     <servers />
   </component>
